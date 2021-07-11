@@ -1,53 +1,79 @@
 body{
-  color:#40514e;
-  margin: 0;
-  text-align: center;
-  font-family: 'merriweather',sans-serif;
-}
-h1,h3,h2{
-  color:#66bfbf;
- margin-top:0;
+  font-family: "monserrat";
 }
 
-.top-cloud{
-  position: absolute;
-  right:300px;
-  top:50px;
-
+#title{
+  background-color: #ff4c68;
+  color: #fff;
 }
-.topcontainer{
-  background-color: #E4F9F5 ;
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: "monserrat-black";
+  font-size: 3em;
+  line-height: 1.5;
+}
+.navbar-brand{
+  font-family:"ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title-img{
+  transform: rotate(25deg);
+  width:60%;
+}
+#features{
+  padding:7% 15%;
+  background-color: #fff;
   position: relative;
-   padding-top: 100px;
-}
-.middlecontainer{
+  z-index:1;
+
 
 }
-.bottomcontainer{
-
-}
-.bottom-cloud{
-  position: absolute;
-  left: 300px;
-  bottom:300px;
-}
-.skill-row{
-  width:50%;
-  margin:100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
-.first
+.icon:hover
 {
-  width:25%;
-  float: left;
-  margin-right: 30px;
+  color: #ff4c68;
 }
 
-.second
+#testimonials
 {
-  width:25%;
-  float: right;
-  margin-left: 30px;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-img
+{
+    border-radius: 100px;
+    width: 10%;
+}
+#press{
+  background-color: #ff4c68;
+ padding: 20px 20px 50px;
+ text-align: center;
+}
+
+.press-img{
+  width: 15%;
+}
+
+@media (max-width:1028px)
+{
+.title-img{
+
+
+  position:static;
+  transform:rotate(0);
+}
+}
+#cta
+{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
 }
