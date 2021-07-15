@@ -1,79 +1,41 @@
-body{
-  font-family: "monserrat";
-}
-
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-}
-.container-fluid{
-  padding: 3% 15%;
-}
-h1{
-  font-family: "monserrat-black";
-  font-size: 3em;
-  line-height: 1.5;
-}
-.navbar-brand{
-  font-family:"ubuntu";
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.title-img{
-  transform: rotate(25deg);
-  width:60%;
-}
-#features{
-  padding:7% 15%;
-  background-color: #fff;
-  position: relative;
-  z-index:1;
-
-
-}
-.icon:hover
-{
-  color: #ff4c68;
-}
-
-#testimonials
-{
-  padding: 7% 15%;
+.container {
+  width: 70%;
+  margin: auto;
   text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-}
-.testimonial-img
-{
-    border-radius: 100px;
-    width: 10%;
-}
-#press{
-  background-color: #ff4c68;
- padding: 20px 20px 50px;
- text-align: center;
 }
 
-.press-img{
-  width: 15%;
-}
-
-@media (max-width:1028px)
-{
-.title-img{
-
-
-  position:static;
-  transform:rotate(0);
-}
-}
-#cta
-{
+.dice {
   text-align: center;
-  background-color: #ff4c68;
-  padding: 7% 15%;
+  display: inline-block;
+
 }
-#footer{
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
+
 }
